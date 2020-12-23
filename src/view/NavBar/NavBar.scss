@@ -1,0 +1,22 @@
+.navBar {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  padding: 1%;
+  box-sizing: border-box;
+
+
+
+  >.logoNav {
+    width: 10%;
+    height: 100%;
+    object-fit: scale-down;
+    object-position: center;
+  }
+
+  >.appTitle {
+    text-align: center;
+    width: 90%;
+    vertical-align: center;
+  }
+}

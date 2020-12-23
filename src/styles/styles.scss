@@ -1,0 +1,25 @@
+@import "./reset";
+
+body {
+  #root {
+    position: relative;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+
+    * {
+      font-family: $regFont, Helvetica, Arial, sans-serif;
+      border: none;
+    }
+
+    h1 {
+      font-family: $boldFont;
+      font-size: 2.5em;
+    }
+
+    h2 {
+      font-family: $boldFont;
+      font-size: 1.25em;
+    }
+  }
+}

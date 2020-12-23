@@ -1,0 +1,20 @@
+.addTaskLine {
+  display: flex;
+  align-items: stretch;
+  justify-items: center;
+  width: 100vw;
+  margin: 1%;
+  padding: 0 10%;
+  box-sizing: border-box;
+
+  >h3 {
+    color: violet;
+    flex: 0 0 auto;
+    margin-right: 1%;
+  }
+
+  >.taskInput {
+    flex: 1 0 auto;
+    margin-right: 1%;
+  }
+}
